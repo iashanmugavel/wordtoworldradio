@@ -39,6 +39,7 @@ gem 'spring',        group: :development
 
 gem 'quiet_assets'
 gem 'therubyracer', platforms: :ruby
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'less-rails'
 gem 'simple_form'
 #gem 'mail_form'
