@@ -54,7 +54,7 @@ group :development, :test do
 # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem "better_errors"
+  #gem "better_errors"
   gem "binding_of_caller"
   gem 'annotate'
   gem 'bullet'
