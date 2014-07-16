@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
-  devise_for :owners
+  get 'home/index'
+
+  get 'welcome/index'
+
+    root 'welcome#index'
+    get 'welcome/index'    
+    get '/home', to: 'home#index'    
+    devise_for :owners, :path => '', :path_names => {:sign_up => 'signup', :sign_in => 'signin', :sign_out => 'signout'}
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
